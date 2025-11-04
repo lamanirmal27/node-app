@@ -1,5 +1,6 @@
 services:
   node-app:
     build: .
+    image: lamanirmal27/node-app:v1.0.0
     ports:
       - 3000:3000
